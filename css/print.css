@@ -1,0 +1,53 @@
+/***************************/
+/*             TEST       			*/
+/***************************/
+@media print {
+	@page {
+		  size: A4;
+		  margin: 0;
+	}
+	body * {
+		width: 90%;
+		visibility: hidden;
+		margin:0;
+		padding:0;
+	}
+	.colored_title{
+		color: #29abe2;
+	}
+	#printSection, #printSection * {
+		visibility: visible;
+	}
+	#printSection {
+		position:absolute;
+		left:0;
+		top:0;
+	    width: 297mm;
+	    height: 210mm;
+	}
+
+	#test, #test * {
+		visibility: visible;
+		left:0;
+		top:0;
+	}
+
+	#test {
+		/*position:absolute;*/
+		left:0;
+		/*top:0;*/
+	    width: 297mm;
+	    height: 210mm;
+	}
+
+	#test div {
+		margin-top:0 !important;
+	} 
+	
+	#printSection > div > label {
+		font-weight: normal !important;
+	} 
+	
+	.non-printable { display: none; }
+    .printable { display: block; }
+}

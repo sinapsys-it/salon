@@ -1,0 +1,23 @@
+{
+  "name": "adc",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular-animate": "1.5.6",
+    "angular-cookies": "1.5.6",
+    "angular-bootstrap": "0.13.4",
+    "angular-smart-table": "latest",
+    "angular-ui-mask": "latest",
+    "bootstrap": "3.3.6",
+    "font-awesome": "latest",
+    "angular": "1.5.6",
+    "angular-route": "1.5.6",
+    "jquery-ui": "latest",
+    "random": "latest",
+    "ng-tags-input": "latest",
+    "accionait-angular-multiselect": "https://github.com/accionait/angular-multiselect.git#master",
+    "blueimp-file-upload-node": "latest",
+    "angular-loading-bar": "latest",
+    "international-phone-number": "latest",
+    "socket.io-client": "1.4.6"
+  }
+}

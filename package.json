@@ -1,0 +1,43 @@
+{
+  "name": "adc",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "description": "Administracion De Consorcios",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "node node_modules/bower/bin/bower install --allow-root && node node_modules/grunt-cli/bin/grunt default",
+    "grunt": "grunt"
+  },
+  "dependencies": {
+    "async-foreach": "latest",
+    "body-parser": "~1.4.2",
+    "bower": "latest",
+    "busboy": ">= 0.0.8",
+    "cfenv": "1.0.x",
+    "compression": "latest",
+    "connect-busboy": ">= 0.0.2",
+    "connect-multiparty": ">= 1.2.4",
+    "cors": "latest",
+    "crypto-js": "^3.1.6",
+    "dictionaryjs": "0.0.8",
+    "express": "4.12.x",
+    "gm": "latest",
+    "grunt": "~0.4.4",
+    "grunt-cli": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-init": "latest",
+    "grunt-ng-annotate": "latest",
+    "method-override": "~2.0.2",
+    "mongoose": "latest",
+    "multer": "1.0.1",
+    "node-gcm": "1.0.0-alpha.0",
+    "nodemailer": "0.7.1",
+    "request": ">= 2.48.0",
+    "socket.io": "^1.5.1",
+    "winston": "latest"
+  },
+  "repository": {}
+}
